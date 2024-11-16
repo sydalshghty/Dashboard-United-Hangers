@@ -1,0 +1,131 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+/*Start Global Rules*/
+body {
+  font-family: 'Poppins', sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+ul {
+  list-style: none;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.container {
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/*Small*/
+@media (min-width: 768px) {
+  .container {
+    width: 750px;
+  }
+}
+
+/*Medium*/
+@media (min-width: 992px) {
+  .container {
+    width: 970px;
+  }
+}
+/*Large*/
+@media (min-width: 1200px) {
+  .container {
+    width: 1170px;
+  }
+}
+/*End Global Rules*/
+.my-Popup{
+  margin-left: auto;
+  margin-right: auto;
+  border: 2px solid  #B0B0B0;
+  font-size: 18px;
+  letter-spacing: 0.5px;
+  font-weight: 500;
+  color: #1F384C;
+  font-family: sans-serif;
+  border-radius: 15px;
+  -webkit-border-radius: 15px;
+  -moz-border-radius: 15px;
+  -ms-border-radius: 15px;
+  -o-border-radius: 15px;
+}
+.my-title{
+  font-size: 18px;
+  font-weight: 500;
+  letter-spacing: 0.5px;
+  color: #1F384C;
+  font-family: sans-serif;
+  left: 0;
+  margin-bottom: 40px;
+  margin-left: -210px;
+}
+@media (max-width: 520px){
+  .my-title{
+    margin-left: -150px;
+  }
+}
+@media (max-width: 500px){
+  .my-title{
+    margin-left: -120px;
+  }
+}
+@media (max-width: 420px){
+  .my-title{
+    margin-left: -100px;
+  }
+}
+.my-content{
+  font-size: 18px;
+  font-weight: 500;
+  letter-spacing: 0.5px;
+}
+.my-delete,
+.my-cancel{
+  width: 120px;
+  margin-top: 40px;
+  margin-bottom: 20px;
+  font-size: 15px;
+  font-weight: 500;
+  letter-spacing: 0.5px;
+  color: #ffffff;
+  font-family: sans-serif;
+  text-transform: capitalize;
+  background-color: #5A67BA;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+}
+.my-delete{
+  margin-right: 20px;
+}
+.my-cancel{
+  background-color: #ffffff;
+  border: 1px solid #5A67BA;
+  color: #5A67BA;
+  margin-left: 20px;
+}

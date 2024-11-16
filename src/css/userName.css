@@ -1,0 +1,48 @@
+:root{
+    --color-heading-User: #5A67BA;
+    --color-slider-User: #1f384c;
+}
+ .userName-col {
+    display: flex;
+    align-items: center;
+}
+ .userName-col .col-user {
+    text-align: center;
+    margin-right: 30px;
+    width: 24px;
+    cursor: pointer;
+    height: 24px;
+    color: #ffffff;
+    background-color: var(--color-heading-User);
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+ .userName-col .col-user .user {
+    color: #ffffff;
+    font-size: 15px;
+    cursor: pointer;
+}
+ .userName-col .p-userName {
+    margin-right: 30px;
+    font-size: 12px;
+    font-weight: 400;
+    letter-spacing: 0.5px;
+    font-family: sans-serif;
+    color: var(--color-slider-one);
+}
+ .userName-col .icon-Down {
+    width: 10px;
+    color: var(--color-slider-User);
+    cursor: pointer;
+}
+@media (max-width: 768px){
+    .userName-col .col-user{
+        margin-right: 15px;
+    }
+    .userName-col .p-userName{
+        margin-right: 15px;
+    }
+}

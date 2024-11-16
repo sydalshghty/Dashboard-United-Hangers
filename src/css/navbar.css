@@ -1,0 +1,127 @@
+:root {
+    --background-logo: #f1f2f7;
+    --color-heading: #5A67BA;
+    --color-slider: #1f384c;
+    --color-userName: #ffffff;
+    --border-color: #c8cBD9;
+    --background-Nav: #F1F2F7;
+    --color-Link: #707FDD;
+    --background-Hover: #e6e7e8;
+}
+.navBar-departament{
+    background-color: var(--background-Nav);
+    height: 100%;
+    width: 100%;
+}
+.navBar-departament .united-hanger-logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--background-logo);
+    height: 60px;
+    padding: 15px 0px;
+    border-bottom: 0.5px solid var(--border-color);
+}
+.navBar-departament .united-hanger-logo img {
+    margin-right: 10px;
+}
+.navBar-departament .united-hanger-logo p {
+    text-align: center;
+    text-transform: capitalize;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 11px;
+    letter-spacing: 0.5px;
+    line-height: 11px;
+    color: var(--color-heading);
+    font-family: 'Poppins', sans-serif;
+}
+.navBar-departament nav {
+    background-color: var(--background-Nav);
+    height: 100%;
+}
+
+.navBar-departament nav .container {
+    width: 100%;
+}
+
+.navBar-departament nav .container ul {
+    width: 100%;
+    margin-top: 60px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.navBar-departament nav .container ul li {
+    width: calc(100% - 30px);
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    align-items: center;
+    margin-bottom: 5px;
+    padding: 5px 15px;
+    transition: background-color 1s ease, border-radius 1s ease;
+    -webkit-transition: background-color 1s ease, border-radius 1s ease;
+    -moz-transition: background-color 1s ease, border-radius 1s ease;
+    -ms-transition: background-color 1s ease, border-radius 1s ease;
+    -o-transition: background-color 1s ease, border-radius 1s ease;
+}
+
+.navBar-departament nav .container ul li .link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@media (min-width: 992px) {
+    .navBar-departament nav .container ul li:hover {
+        background-color: var(--background-Hover);
+        border-radius: 5px;
+        -webkit-border-radius: 5px;
+        -moz-border-radius: 5px;
+        -ms-border-radius: 5px;
+        -o-border-radius: 5px;
+    }
+}
+
+.navBar-departament nav .container ul li img {
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.navBar-departament nav .container ul li a {
+    text-decoration: none;
+    text-transform: capitalize;
+    font-size: 15px;
+    font-weight: 400;
+    letter-spacing: 0.5px;
+    color: var(--color-Link);
+    font-family: 'Poppins', sans-serif;
+}
+
+@media (max-width: 992px) {
+    .navBar-departament nav {
+        width: 60px;
+    }
+
+    .navBar-departament nav .container ul li a {
+        display: none;
+    }
+
+    .navBar-departament nav .container ul li {
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 15px;
+    }
+
+    .navBar-departament nav .container ul li img {
+        margin-right: 0;
+    }
+    .navBar-departament .united-hanger-logo img {
+        margin: 0;
+    }
+    .navBar-departament .united-hanger-logo p {
+        display: none;
+    }
+}

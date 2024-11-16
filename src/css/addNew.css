@@ -1,0 +1,31 @@
+ :root{
+    --background-one: #5A67BA;
+    --color-one: #ffffff;
+ }
+ .addNew {
+    text-decoration: none;
+    width: 128px;
+    height: 37px;
+    background-color: var(--background-one);
+    font-size: 15px;
+    font-weight: 500;
+    letter-spacing: 0.5px;
+    display: flex;
+    justify-content: center;
+    border: none;
+    cursor: pointer;
+    align-items: center;
+    color: var(--color-one);
+    text-transform: capitalize;
+    font-family: sans-serif;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+@media (max-width: 600px) {
+ .addNew {
+        width: 100px;
+    }
+}
