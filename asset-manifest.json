@@ -1,16 +1,19 @@
 {
   "files": {
-    "main.css": "/Dashboard-United-Hangers/static/css/main.dda68468.css",
-    "main.js": "/Dashboard-United-Hangers/static/js/main.2e6fde95.js",
+    "main.css": "/Dashboard-United-Hangers/static/css/main.788ed388.css",
+    "main.js": "/Dashboard-United-Hangers/static/js/main.5f8ccce7.js",
     "static/media/61GsnUB4HuL 2 (1).png": "/Dashboard-United-Hangers/static/media/61GsnUB4HuL 2 (1).b9abd231c19340e4907f.png",
     "static/media/61GsnUB4HuL 2 (2).png": "/Dashboard-United-Hangers/static/media/61GsnUB4HuL 2 (2).b9abd231c19340e4907f.png",
     "static/media/Group 350.svg": "/Dashboard-United-Hangers/static/media/Group 350.7f00c1ae0bdab23702b4c8fc33c5335c.svg",
+    "static/media/Vector (6).svg": "/Dashboard-United-Hangers/static/media/Vector (6).ad00f4d251114419d9c4f2819b2d805e.svg",
     "static/media/Group 353.svg": "/Dashboard-United-Hangers/static/media/Group 353.96f361ecf5bce598028e5608b19dda93.svg",
     "static/media/Group 353 (1).svg": "/Dashboard-United-Hangers/static/media/Group 353 (1).88e0a5c7e182f4558b65a65cdcfce62c.svg",
     "index.html": "/Dashboard-United-Hangers/index.html",
     "static/media/Group 409.svg": "/Dashboard-United-Hangers/static/media/Group 409.6235e37cc0dc037d871d88966108d8c7.svg",
     "static/media/Buy.svg": "/Dashboard-United-Hangers/static/media/Buy.0b23dbd1310a25ef4711d3cbc882d8d1.svg",
+    "static/media/Vector (5).svg": "/Dashboard-United-Hangers/static/media/Vector (5).cc4b7dd71d15c223beb4f6759f852b7f.svg",
     "static/media/Vector.svg": "/Dashboard-United-Hangers/static/media/Vector.45bd21ccbd1e1104be1db6476309213c.svg",
+    "static/media/Vector (7).svg": "/Dashboard-United-Hangers/static/media/Vector (7).00f60da896de37c4133a6939643d8e8c.svg",
     "static/media/Document.svg": "/Dashboard-United-Hangers/static/media/Document.c7d3c8695f4e7bdb78717797b6ecb276.svg",
     "static/media/Group 410.svg": "/Dashboard-United-Hangers/static/media/Group 410.e2dd6793a0fcb0b3b8865019272701c5.svg",
     "static/media/Vector (4).svg": "/Dashboard-United-Hangers/static/media/Vector (4).d2758d2f8aaba37cd751c9ae3f5d48d4.svg",
@@ -19,11 +22,11 @@
     "static/media/Vector (2).svg": "/Dashboard-United-Hangers/static/media/Vector (2).11051eb2000c7fd4330db652d5056463.svg",
     "static/media/Group 429.svg": "/Dashboard-United-Hangers/static/media/Group 429.e2a0f4c21dc044ccb8b6d2656c1356a6.svg",
     "static/media/Vector (3).svg": "/Dashboard-United-Hangers/static/media/Vector (3).cb0a0dbbc0f2725c5d69a2dd8e4b2f00.svg",
-    "main.dda68468.css.map": "/Dashboard-United-Hangers/static/css/main.dda68468.css.map",
-    "main.2e6fde95.js.map": "/Dashboard-United-Hangers/static/js/main.2e6fde95.js.map"
+    "main.788ed388.css.map": "/Dashboard-United-Hangers/static/css/main.788ed388.css.map",
+    "main.5f8ccce7.js.map": "/Dashboard-United-Hangers/static/js/main.5f8ccce7.js.map"
   },
   "entrypoints": [
-    "static/css/main.dda68468.css",
-    "static/js/main.2e6fde95.js"
+    "static/css/main.788ed388.css",
+    "static/js/main.5f8ccce7.js"
   ]
 }
