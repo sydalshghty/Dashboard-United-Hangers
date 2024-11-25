@@ -11,7 +11,16 @@ import BusinessHours from "./components/business";
 import ProductSlider from "./components/productSlider";
 import AddNewSlider from "./components/addNewSlider";
 import EditSlider from "./components/EditSlider";
+import RowMaterial from "./components/RowMaterial";
+import EditMaterial from "./components/EditMaterial";
+import AddNewMaterial from "./components/addNewMaterial";
+import Sizes from "./components/Sizes";
+import AddNewSize from "./components/addNewSize";
+import EditSize from "./components/EditSize";
+import Colors from "./components/Colors";
+import Color from "./components/color";
 import { Routes, Route } from "react-router-dom";
+import AddNewColor from "./components/addNewColor";
 import "./app.css";
 function App() {
   return (
@@ -33,11 +42,19 @@ function App() {
           <Route path="BusinessHours" element={<BusinessHours />} />
           <Route path="/product" element={<ProductSlider />} />
           <Route path="/AddNewSlider" element={<AddNewSlider />} />
-          <Route path="/EditSlider" element= {<EditSlider/>}/>
+          <Route path="/EditSlider" element={<EditSlider />} />
+          <Route path="RowMaterial" element={<RowMaterial />} />
+          <Route path="/material" element={<EditMaterial />} />
+          <Route path="/addNewMaterial" element={<AddNewMaterial />} />
+          <Route path="Sizes" element={<Sizes />} />
+          <Route path="/AddNewSize" element={<AddNewSize />} />
+          <Route path="/EditSize" element={<EditSize />} />
+          <Route path="Colors" element={<Colors />} />
+          <Route path="/color" element={<Color />} />
+          <Route path="/AddNewColor" element={<AddNewColor/>}/>
         </Routes>
       </div>
     </div>
   );
 }
-
 export default App;

@@ -1,0 +1,307 @@
+.color-departament{
+    width: 100%;
+}
+.color-departament .heading-color{
+    width: 100%;
+    padding-left: 40px;
+    padding-right: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 60px;
+    padding: 15px;
+    border-bottom: 0.5px solid var(--border-color);
+}
+.color-departament .heading-color .col-image{
+    display: flex;
+    align-items: center;
+    padding-left: 20px;
+}
+.color-departament .heading-color .col-image img{
+    margin-right: 15px;
+    cursor: pointer;
+}
+.color-departament .heading-color .col-image p{
+    font-size: 18px;
+    font-weight: 500;
+    letter-spacing: 0.5px;
+    font-family: sans-serif;
+    color: #1F384C;
+}
+@media (max-width: 600px){
+    .color-departament .heading-color{
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .color-departament .heading-color .col-image{
+        padding-left: 0;
+    }
+}
+@media (max-width: 420px){
+    .color-departament .heading-color .col-image img{
+        width: 17px;
+    }
+    .color-departament .heading-color .col-image p{
+        font-size: 15px;
+    }
+}
+.color-departament .col-inputs-content .col-Hex-code {
+    margin-top: 40px;
+}
+
+.color-departament .col-inputs-content {
+    width: 100%;
+    padding-left: 40px;
+    padding-right: 40px;
+    margin-top: 80px;
+}
+
+.color-departament .col-inputs-content .col-Name-Code {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.color-departament .col-inputs-content .col-Name-Code .col-name p,
+.color-departament .col-inputs-content .col-Name-Code .col-code p,
+.color-departament .col-inputs-content .col-Hex-code p {
+    font-size: 15px;
+    font-weight: 500;
+    letter-spacing: 0.5px;
+    font-family: sans-serif;
+    color: #000000;
+    margin-bottom: 10px;
+}
+
+.color-departament .col-inputs-content .col-Name-Code .col-name input,
+.color-departament .col-inputs-content .col-Name-Code .col-code input,
+.color-departament .col-inputs-content .col-Hex-code input {
+    width: 524px;
+    height: 48px;
+    background-color: #F6F6FB;
+    font-size: 13px;
+    font-weight: 400;
+    letter-spacing: 0.5px;
+    color: #1F384C;
+    caret-color: #1F384C;
+    border: none;
+    outline: none;
+    padding: 10px;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+
+@media (max-width: 1450px) {
+
+    .color-departament .col-inputs-content .col-Name-Code .col-name input,
+    .color-departament .col-inputs-content .col-Name-Code .col-code input,
+    .color-departament .col-inputs-content .col-Hex-code input {
+        width: 460px;
+    }
+}
+
+@media (max-width: 1300px) {
+
+    .color-departament .col-inputs-content .col-Name-Code .col-name input,
+    .color-departament .col-inputs-content .col-Name-Code .col-code input,
+    .color-departament .col-inputs-content .col-Hex-code input {
+        width: 410px;
+    }
+}
+
+@media (max-width: 1200px) {
+
+    .color-departament .col-inputs-content .col-Name-Code .col-name input,
+    .color-departament .col-inputs-content .col-Name-Code .col-code input,
+    .color-departament .col-inputs-content .col-Hex-code input {
+        width: 360px;
+    }
+}
+
+@media (max-width: 1100px) {
+
+    .color-departament .col-inputs-content .col-Name-Code .col-name input,
+    .color-departament .col-inputs-content .col-Name-Code .col-code input,
+    .color-departament .col-inputs-content .col-Hex-code input {
+        width: 320px;
+    }
+}
+
+@media (max-width: 992px) {
+
+    .color-departament .col-inputs-content .col-Name-Code .col-name input,
+    .color-departament .col-inputs-content .col-Name-Code .col-code input,
+    .color-departament .col-inputs-content .col-Hex-code input {
+        width: 350px;
+    }
+}
+
+@media (max-width: 900px) {
+
+    .color-departament .col-inputs-content .col-Name-Code .col-name input,
+    .color-departament .col-inputs-content .col-Name-Code .col-code input,
+    .color-departament .col-inputs-content .col-Hex-code input {
+        width: 300px;
+    }
+}
+
+@media (max-width: 800px) {
+    .color-departament .col-inputs-content .col-Name-Code {
+        flex-direction: column;
+        align-items: flex-start;
+        width: 100%;
+    }
+
+    .color-departament .col-inputs-content .col-name,
+    .color-departament .col-inputs-content .col-code,
+    .color-departament .col-inputs-content .col-Hex-code {
+        width: 100%;
+    }
+
+    .color-departament .col-inputs-content .col-Name-Code .col-name input,
+    .color-departament .col-inputs-content .col-Name-Code .col-code input,
+    .color-departament .col-inputs-content .col-Hex-code input {
+        width: 100%;
+    }
+
+    .color-departament .col-inputs-content .col-Name-Code .col-name {
+        margin-bottom: 20px;
+    }
+
+    .color-departament .col-inputs-content .col-Hex-code {
+        margin-top: 20px;
+    }
+
+}
+
+.color-departament .col-inputs-content .col-Name-Code .col-name input::placeholder,
+.color-departament .col-inputs-content .col-Name-Code .col-code input::placeholder,
+.color-departament .col-inputs-content .col-Hex-code input::placeholder {
+    padding-left: 10px;
+}
+
+@media (max-width: 600px) {
+    .color-departament .col-inputs-content {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+}
+.color-departament .col-Delete-Edit {
+    padding-left: 40px;
+    padding-right: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 200px;
+}
+
+.color-departament .col-Delete-Edit .delete,
+.color-departament .col-Delete-Edit .Edit {
+    position: relative;
+    width: 294px;
+    height: 45px;
+    font-size: 15px;
+    font-weight: 500;
+    letter-spacing: 0.5px;
+    border: none;
+    text-transform: capitalize;
+    color: var(--color-Delete);
+    font-family: sans-serif;
+    cursor: pointer;
+    transition: background-color 0.5s ease;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    -webkit-transition: background-color 0.5s ease;
+    -moz-transition: background-color 0.5s ease;
+    -ms-transition: background-color 0.5s ease;
+    -o-transition: background-color 0.5s ease;
+}
+
+.color-departament .col-Delete-Edit .delete {
+    position: relative;
+    background-color: var(--background-Delete);
+    margin-right: 40px;
+}
+
+.color-departament .col-Delete-Edit .delete::before,
+.color-departament .col-Delete-Edit .Edit::before {
+    content: "";
+    position: absolute;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 0%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    color: #ffffff;
+    font-size: 15px;
+    font-weight: 500;
+    letter-spacing: 0.5px;
+    border: none;
+    text-transform: capitalize;
+    color: var(--color-Delete);
+    font-family: sans-serif;
+    cursor: pointer;
+    transition: width 0.7s ease;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    -webkit-transition: width 0.7s ease;
+    -moz-transition: width 0.7s ease;
+    -ms-transition: width 0.7s ease;
+    -o-transition: width 0.7s ease;
+}
+
+.color-departament .col-Delete-Edit .delete::before {
+    content: "Delete";
+    background-color: var(--Edit-Background);
+}
+
+.color-departament .col-Delete-Edit .Edit::before {
+    content: "Edit";
+    background-color: var(--background-Delete);
+}
+
+.color-departament .col-Delete-Edit .delete:hover::before,
+.color-departament .col-Delete-Edit .Edit:hover::before {
+    width: 100%;
+}
+
+.color-departament .col-Delete-Edit .Edit {
+    background-color: var(--Edit-Background);
+}
+
+@media (max-width: 1200px) {
+
+    .color-departament .col-Delete-Edit .delete,
+    .color-departament .col-Delete-Edit .Edit {
+        width: 220px;
+    }
+}
+
+@media (max-width: 768px) {
+    .color-departament .col-product-Edit {
+        flex-direction: column;
+        margin-top: 20px;
+    }
+
+    .color-departament .col-Delete-Edit {
+        flex-direction: column;
+    }
+
+    .color-departament .col-Delete-Edit .delete {
+        margin-right: 0;
+        margin-bottom: 20px;
+    }
+}

@@ -168,7 +168,6 @@
 
 .slider-departament .col-Product-slider .id-product,
 .slider-departament .col-product-mobile .content-image p {
-    cursor: pointer;
     width: 45px;
     height: 45px;
     margin-left: 5px;
@@ -291,19 +290,10 @@
         margin-right: 15px;
     }
 }
-.slider-departament .col-product-mobile .content-image img{
-    
-}
 .slider-departament .col-product-mobile .content-text{
     font-family: sans-serif;
     margin-top: 15px;
     margin-bottom: 15px;
-}
-.slider-departament .col-product-mobile .content-text h3{
-
-}
-.slider-departament .col-product-mobile .content-text p{
-
 }
 .slider-departament .col-product-mobile .col-Edit-Delete{
     position: absolute;

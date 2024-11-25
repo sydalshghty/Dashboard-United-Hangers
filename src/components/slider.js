@@ -10,6 +10,7 @@ import AddNew from "./addNew";
 import "../css/slider.css";
 import UserName from "./userName";
 import Swal from "sweetalert2";
+
 function Slider() {
 
     const handleDelete = () => {
@@ -40,6 +41,10 @@ function Slider() {
         navigate("/EditSlider");
     }
     const [placeholder, setPlaceholder] = useState("Search");
+
+    const handleNavigate2 = () => {
+        navigate("/AddNewSlider")
+    }
     return (
         <div className="slider-departament">
             <div className="slider-content">
@@ -61,13 +66,15 @@ function Slider() {
             </div>
             <div className="heading-slider">
                 <p>All Sliders</p>
-                <AddNew/>
+                <div className="col-addNew" onClick={handleNavigate2}>
+                    <AddNew/>
+                </div>
             </div>
             <div className="main-product">
                 <div className="col-Product-slider">
-                <p className="id-product" onClick={handleNavigate}>1</p>
+                <p className="id-product">1</p>
                 <img className="img-product" src= {imgProduct} alt="img-product" />
-                <div className="col-text">
+                <div className="col-text" onClick={handleNavigate} style={{cursor: "pointer"}}>
                     <h3 className="heading-product">slider1</h3>
                     <p className="description-product">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor</p>
                 </div>
@@ -79,10 +86,10 @@ function Slider() {
             </div>
             <div className="col-product-mobile">
                     <div className="content-image">
-                        <p className="id-product" onClick={handleNavigate}>1</p>
+                        <p className="id-product">1</p>
                         <img className="img-product" src={imgProduct} alt="img-product" />
                     </div>
-                    <div className="content-text">
+                    <div className="content-text" onClick={handleNavigate} style={{cursor: "pointer"}}>
                         <h3 className="heading-product">slider1</h3>
                         <p className="description-product">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor</p>
                     </div>

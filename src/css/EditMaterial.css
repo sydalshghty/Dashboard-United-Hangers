@@ -1,0 +1,198 @@
+:root{
+    --color-Material: #1F384C;
+    --border-material-color: #C8CBD9;
+}
+.Edit-Material-Departament{
+    width: 100%;
+}
+.Edit-Material-Departament .Edit-Material-Heading{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 60px;
+    padding: 15px;
+    padding-left: 40px;
+    padding-right: 40px;
+    width: 100%;
+    border-bottom: 0.5px solid var(--border-color);
+}
+.Edit-Material-Departament .Edit-Material-Heading .col-material{
+    display: flex;
+    align-items: center;
+}
+.Edit-Material-Departament .Edit-Material-Heading .col-material img{
+    margin-right: 15px;
+    cursor: pointer;
+}
+.Edit-Material-Departament .Edit-Material-Heading .col-material p{
+    font-size: 18px;
+    font-weight: 500;
+    letter-spacing: 0.5px;
+    color: var(--color-Material);
+    font-family: sans-serif;
+}
+@media (max-width: 600px){
+    .Edit-Material-Departament .Edit-Material-Heading{
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+}
+@media (max-width: 500px){
+    .Edit-Material-Departament .Edit-Material-Heading .col-material p {
+        font-size: 13px;
+        font-weight: 200;
+    }
+    .Edit-Material-Departament .Edit-Material-Heading .col-material img{
+        width: 20px;
+        margin-right: 10px;
+    }
+}
+.Edit-Material-Departament .col-input-material {
+    padding-left: 40px;
+    padding-right: 40px;
+    margin-top: 80px;
+}
+.Edit-Material-Departament .col-input-material p {
+    font-size: 15px;
+    font-weight: 500;
+    letter-spacing: 0.5px;
+    font-family: sans-serif;
+    color: #000000;
+    margin-bottom: 10px;
+}
+.Edit-Material-Departament .col-input-material input {
+    width: 524px;
+    height: 48px;
+    background-color: #f6f6fb;
+    border: none;
+    outline: none;
+    padding: 15px;
+    font-size: 13px;
+    font-weight: 400;
+    letter-spacing: 0.5px;
+    font-family: sans-serif;
+    color: #1F384C;
+    caret-color: #1F384C;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+.Edit-Material-Departament .col-input-material input::placeholder {
+    padding-left: 5px;
+}
+@media (max-width: 768px){
+    .Edit-Material-Departament .col-input-material input{
+        width: 100%;
+    }
+}
+.Edit-Material-Departament .col-Delete-Edit {
+    padding-left: 40px;
+    padding-right: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 140px;
+}
+
+.Edit-Material-Departament .col-Delete-Edit .delete,
+.Edit-Material-Departament .col-Delete-Edit .Edit {
+    position: relative;
+    width: 294px;
+    height: 45px;
+    font-size: 15px;
+    font-weight: 500;
+    letter-spacing: 0.5px;
+    border: none;
+    text-transform: capitalize;
+    color: var(--color-Delete);
+    font-family: sans-serif;
+    cursor: pointer;
+    transition: background-color 0.5s ease;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    -webkit-transition: background-color 0.5s ease;
+    -moz-transition: background-color 0.5s ease;
+    -ms-transition: background-color 0.5s ease;
+    -o-transition: background-color 0.5s ease;
+}
+
+.Edit-Material-Departament .col-Delete-Edit .delete {
+    position: relative;
+    background-color: var(--background-Delete);
+    margin-right: 40px;
+}
+.Edit-Material-Departament .col-Delete-Edit .delete::before,
+.Edit-Material-Departament .col-Delete-Edit .Edit::before{
+        content: "";
+        position: absolute;
+        overflow: hidden;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 0%;
+        height: 100%;
+        left: 0;
+        top: 0;
+        color: #ffffff;
+        font-size: 15px;
+        font-weight: 500;
+        letter-spacing: 0.5px;
+        border: none;
+        text-transform: capitalize;
+        color: var(--color-Delete);
+        font-family: sans-serif;
+        cursor: pointer;
+        transition: width 0.7s ease;
+        border-radius: 5px;
+        -webkit-border-radius: 5px;
+        -moz-border-radius: 5px;
+        -ms-border-radius: 5px;
+        -o-border-radius: 5px;
+        -webkit-transition: width 0.7s ease;
+        -moz-transition: width 0.7s ease;
+        -ms-transition: width 0.7s ease;
+        -o-transition: width 0.7s ease;
+}
+.Edit-Material-Departament .col-Delete-Edit .delete::before{
+    content: "Delete";
+    background-color: var(--Edit-Background);
+}
+.Edit-Material-Departament .col-Delete-Edit .Edit::before{
+    content: "Edit";
+    background-color: var(--background-Delete);
+}
+.Edit-Material-Departament .col-Delete-Edit .delete:hover::before,
+.Edit-Material-Departament .col-Delete-Edit .Edit:hover::before{
+    width: 100%;
+}
+.Edit-Material-Departament .col-Delete-Edit .Edit {
+    background-color: var(--Edit-Background);
+}
+@media (max-width: 1200px) {
+    .Edit-Material-Departament .col-Delete-Edit .delete,
+    .Edit-Material-Departament .col-Delete-Edit .Edit {
+        width: 220px;
+    }
+}
+
+@media (max-width: 768px) {
+    .Edit-Material-Departament .col-product-Edit {
+        flex-direction: column;
+        margin-top: 20px;
+    }
+
+    .Edit-Material-Departament .col-Delete-Edit {
+        flex-direction: column;
+    }
+
+    .Edit-Material-Departament .col-Delete-Edit .delete {
+        margin-right: 0;
+        margin-bottom: 20px;
+    }
+}

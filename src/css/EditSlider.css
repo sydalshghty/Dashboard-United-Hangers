@@ -98,12 +98,6 @@
     -ms-border-radius: 5px;
     -o-border-radius: 5px;
 }
-.EditSlider-Departament .col-product-Edit .content-product-Edit .col-description{
-    
-}
-.EditSlider-Departament .col-product-Edit .content-product-Edit .col-description p{
-
-}
 .EditSlider-Departament .col-product-Edit .content-product-Edit .col-description input{
     width: 100%;
     height: 99px;
@@ -191,7 +185,4 @@
     .EditSlider-Departament .col-product-Edit .col-image-product img {
         width: 100%;
     }
-}
-@media (max-width: 600px){
-    
 }

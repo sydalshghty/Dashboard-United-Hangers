@@ -1,0 +1,282 @@
+.EditSize-Departament{
+    width: 100%;
+}
+.EditSize-Departament .EditSize-Heading{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding-left: 40px;
+    padding-right: 40px;
+    height: 60px;
+    padding: 15px;
+    border-bottom: 0.5px solid var(--border-color);
+}
+.EditSize-Departament .EditSize-Heading .col-image{
+    padding-left: 20px;
+    display: flex;
+}
+.EditSize-Departament .EditSize-Heading .col-image img{
+    margin-right: 15px;
+    cursor: pointer;
+}
+.EditSize-Departament .EditSize-Heading .col-image p{
+    font-size: 18px;
+    font-weight: 500;
+    letter-spacing: 0.5px;
+    font-family: sans-serif;
+    color: #1F384C;
+    text-transform: capitalize;
+}
+@media (max-width: 600px){
+    .EditSize-Departament .EditSize-Heading{
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .EditSize-Departament .EditSize-Heading .col-image {
+         padding-left: 0;
+     }
+}
+@media (max-width: 420px){
+    .EditSize-Departament .EditSize-Heading .col-image img{
+        width: 17px;
+    }
+    .EditSize-Departament .EditSize-Heading .col-image p{
+        font-size: 13px;
+    }
+}
+.EditSize-Departament .col-input-AddNewSize {
+    width: 100%;
+    padding-left: 40px;
+    padding-right: 40px;
+    margin-top: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.EditSize-Departament .col-input-AddNewSize .col-Value p,
+.EditSize-Departament .col-input-AddNewSize .col-Unit p {
+    font-size: 15px;
+    font-weight: 500;
+    letter-spacing: 0.5px;
+    font-family: sans-serif;
+    color: #000000;
+    margin-bottom: 10px;
+}
+
+.EditSize-Departament .col-input-AddNewSize .col-Value input,
+.EditSize-Departament .col-input-AddNewSize .col-Unit input {
+    width: 524px;
+    height: 48px;
+    background-color: #F6F6FB;
+    font-size: 13px;
+    font-weight: 400;
+    letter-spacing: 0.5px;
+    color: #1F384C;
+    caret-color: #1F384C;
+    border: none;
+    outline: none;
+    padding: 10px;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+
+@media (max-width: 1450px) {
+
+    .EditSize-Departament .col-input-AddNewSize .col-Value input,
+    .EditSize-Departament .col-input-AddNewSize .col-Unit input {
+        width: 460px;
+    }
+}
+
+@media (max-width: 1300px) {
+
+    .EditSize-Departament .col-input-AddNewSize .col-Value input,
+    .EditSize-Departament .col-input-AddNewSize .col-Unit input {
+        width: 410px;
+    }
+}
+
+@media (max-width: 1200px) {
+
+    .EditSize-Departament .col-input-AddNewSize .col-Value input,
+    .EditSize-Departament .col-input-AddNewSize .col-Unit input {
+        width: 360px;
+    }
+}
+
+@media (max-width: 1100px) {
+
+    .EditSize-Departament .col-input-AddNewSize .col-Value input,
+    .EditSize-Departament .col-input-AddNewSize .col-Unit input {
+        width: 320px;
+    }
+}
+
+@media (max-width: 992px) {
+
+    .EditSize-Departament .col-input-AddNewSize .col-Value input,
+    .EditSize-Departament .col-input-AddNewSize .col-Unit input {
+        width: 350px;
+    }
+}
+
+@media (max-width: 900px) {
+
+    .EditSize-Departament .col-input-AddNewSize .col-Value input,
+    .EditSize-Departament .col-input-AddNewSize .col-Unit input {
+        width: 300px;
+    }
+}
+
+@media (max-width: 800px) {
+    .EditSize-Departament .col-input-AddNewSize {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .EditSize-Departament .col-input-AddNewSize .col-Value,
+    .EditSize-Departament .col-input-AddNewSize .col-Unit {
+        width: 100%;
+    }
+
+    .EditSize-Departament .col-input-AddNewSize .col-Value {
+        margin-bottom: 20px;
+    }
+
+    .EditSize-Departament .col-input-AddNewSize .col-Value input,
+    .EditSize-Departament .col-input-AddNewSize .col-Unit input {
+        width: 100%;
+    }
+}
+
+.EditSize-Departament .col-input-AddNewSize .col-Value input::placeholder,
+.EditSize-Departament .col-input-AddNewSize .col-Unit input::placeholder {
+    padding-left: 10px;
+}
+
+@media (max-width: 600px) {
+    .EditSize-Departament .col-input-AddNewSize {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+}
+.EditSize-Departament .col-Delete-Edit {
+    padding-left: 40px;
+    padding-right: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 140px;
+}
+
+.EditSize-Departament .col-Delete-Edit .delete,
+.EditSize-Departament .col-Delete-Edit .Edit {
+    position: relative;
+    width: 294px;
+    height: 45px;
+    font-size: 15px;
+    font-weight: 500;
+    letter-spacing: 0.5px;
+    border: none;
+    text-transform: capitalize;
+    color: var(--color-Delete);
+    font-family: sans-serif;
+    cursor: pointer;
+    transition: background-color 0.5s ease;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    -webkit-transition: background-color 0.5s ease;
+    -moz-transition: background-color 0.5s ease;
+    -ms-transition: background-color 0.5s ease;
+    -o-transition: background-color 0.5s ease;
+}
+
+.EditSize-Departament .col-Delete-Edit .delete {
+    position: relative;
+    background-color: var(--background-Delete);
+    margin-right: 40px;
+}
+
+.EditSize-Departament .col-Delete-Edit .delete::before,
+.EditSize-Departament .col-Delete-Edit .Edit::before {
+    content: "";
+    position: absolute;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 0%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    color: #ffffff;
+    font-size: 15px;
+    font-weight: 500;
+    letter-spacing: 0.5px;
+    border: none;
+    text-transform: capitalize;
+    color: var(--color-Delete);
+    font-family: sans-serif;
+    cursor: pointer;
+    transition: width 0.7s ease;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    -webkit-transition: width 0.7s ease;
+    -moz-transition: width 0.7s ease;
+    -ms-transition: width 0.7s ease;
+    -o-transition: width 0.7s ease;
+}
+
+.EditSize-Departament .col-Delete-Edit .delete::before {
+    content: "Delete";
+    background-color: var(--Edit-Background);
+}
+
+.EditSize-Departament .col-Delete-Edit .Edit::before {
+    content: "Edit";
+    background-color: var(--background-Delete);
+}
+
+.EditSize-Departament .col-Delete-Edit .delete:hover::before,
+.EditSize-Departament .col-Delete-Edit .Edit:hover::before {
+    width: 100%;
+}
+
+.EditSize-Departament .col-Delete-Edit .Edit {
+    background-color: var(--Edit-Background);
+}
+
+@media (max-width: 1200px) {
+
+    .EditSize-Departament .col-Delete-Edit .delete,
+    .EditSize-Departament .col-Delete-Edit .Edit {
+        width: 220px;
+    }
+}
+
+@media (max-width: 768px) {
+    .EditSize-Departament .col-product-Edit {
+        flex-direction: column;
+        margin-top: 20px;
+    }
+
+    .EditSize-Departament .col-Delete-Edit {
+        flex-direction: column;
+    }
+
+    .EditSize-Departament .col-Delete-Edit .delete {
+        margin-right: 0;
+        margin-bottom: 20px;
+    }
+}
