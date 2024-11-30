@@ -21,6 +21,9 @@ import Colors from "./components/Colors";
 import Color from "./components/color";
 import { Routes, Route } from "react-router-dom";
 import AddNewColor from "./components/addNewColor";
+import AddNewServices from "./components/AddNewServices";
+import Service from "./components/service";
+import EditService from "./components/EditService";
 import "./app.css";
 function App() {
   return (
@@ -51,8 +54,11 @@ function App() {
           <Route path="/EditSize" element={<EditSize />} />
           <Route path="Colors" element={<Colors />} />
           <Route path="/color" element={<Color />} />
-          <Route path="/AddNewColor" element={<AddNewColor/>}/>
-        </Routes>
+          <Route path="/AddNewColor" element={<AddNewColor />} />
+          <Route path="/AddNewServices" element={<AddNewServices />} />
+          <Route path="/Service" element={<Service />} />
+          <Route path="/EditService" element={<EditService/>}/>
+        </Routes> 
       </div>
     </div>
   );

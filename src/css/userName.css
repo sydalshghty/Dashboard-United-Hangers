@@ -7,6 +7,9 @@
     align-items: center;
 }
  .userName-col .col-user {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     text-align: center;
     margin-right: 30px;
     width: 24px;

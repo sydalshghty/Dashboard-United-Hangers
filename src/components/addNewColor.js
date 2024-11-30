@@ -6,10 +6,9 @@ import React, { useState } from 'react';
 import { ChromePicker } from 'react-color';
 function AddNewColor() {
 
-    const [color, setColor] = useState('#F6F6FB');  // تخزين اللون المختار
+    const [color, setColor] = useState('#F6F6FB');  
     const [showPicker, setShowPicker] = useState(false); 
     const [Name, setName] = useState("Name");
-    const [HexCode, setHexCode] = useState("Hex Code");
 
     const handleName = () => {
         setName("");
@@ -20,11 +19,11 @@ function AddNewColor() {
     };
 
     const handleColorChange = (newColor) => {
-        setColor(newColor.hex);  // تحديث اللون عند اختيار اللون من شريط الاختيار
+        setColor(newColor.hex); 
     };
 
     const togglePicker = () => {
-        setShowPicker(!showPicker);  // التبديل بين إظهار وإخفاء شريط اختيار اللون
+        setShowPicker(!showPicker); 
     };
 
     const blurtogglePicker = () => {
@@ -36,6 +35,9 @@ function AddNewColor() {
     const handleNavigate = () => {
         navigate("/Colors");
     }
+
+    const [code, setCode] = useState("Code");
+
     return (
         <div className="Add-New-Color-Departament">
             <div className="heading-Add-New-Color">
@@ -60,31 +62,30 @@ function AddNewColor() {
                     </div>
                     <div className="col-code">
                         <p>Code</p>
-                        <div>
-                            <input
-                                value={color}
-                                onClick={togglePicker}// عند الضغط على الـ input يظهر شريط اختيار اللون
-                                onChange={handleInputChange}
-                                style={{ backgroundColor: color, padding: '10px', border: '1px solid #ccc', borderRadius: '4px' }}
-                                type="text" placeholder="Code" name="Code" />
-                            {showPicker && (
-                            <div style={{ position: 'absolute', zIndex: 2 , marginTop: "20px"}}>
-                                <ChromePicker color={color} onChangeComplete={handleColorChange} />
-                             </div>
-                            )}
-                        </div>
+                        <input onFocus={() => {
+                            setCode("");
+                        }}
+                            onBlur={() => {
+                                setCode("Code");
+                        }}    onClick={blurtogglePicker} type="text" placeholder={code} name="Code" />
                     </div>
                 </div>
                 <div className="col-Hex-code">
                     <p>Hex Code</p>
-                    <input
-                        onFocus={() => {
-                            setHexCode("")
-                        }}
-                        onBlur={() => {
-                            setHexCode("Hex Code")
-                        }}
-                        onClick={blurtogglePicker} type="text" placeholder={HexCode} name="Hex Code" />
+                    <div>
+                        <input
+                            value={color}
+                            onClick={togglePicker}
+                            onChange={handleInputChange}
+                            style={{ backgroundColor: color, padding: '10px', borderRadius: '4px' }}
+                            type="text" placeholder="Hex Code" name="Hex Code"
+                        />
+                        {showPicker && (
+                            <div style={{ position: 'absolute', zIndex: 2 , marginTop: "20px"}}>
+                                <ChromePicker color={color} onChangeComplete={handleColorChange} />
+                             </div>
+                        )}
+                    </div>
                 </div>
             </div>
             <div className="Cancel-And-Delete">

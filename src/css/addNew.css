@@ -3,6 +3,8 @@
     --color-one: #ffffff;
  }
  .addNew {
+    position: relative;
+    z-index: 200;
     text-decoration: none;
     width: 128px;
     height: 37px;

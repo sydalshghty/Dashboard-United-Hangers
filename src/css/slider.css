@@ -32,7 +32,7 @@
 }
 @media (max-width: 600px){
     .slider-departament .slider-content .p-slider{
-        padding-left: 10px;
+        padding-left: 0px;
         font-size: 15px;
     }
 }
@@ -110,28 +110,6 @@
     letter-spacing: 0.5px;
     font-family: sans-serif;
 }
-
-.slider-departament .heading-slider a {
-    text-decoration: none;
-    width: 128px;
-    height: 37px;
-    background-color: var(--background-addNew);
-    font-size: 15px;
-    font-weight: 500;
-    letter-spacing: 0.5px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    color: var(--color-addNew);
-    text-transform: capitalize;
-    font-family: sans-serif;
-    border-radius: 5px;
-    -webkit-border-radius: 5px;
-    -moz-border-radius: 5px;
-    -ms-border-radius: 5px;
-    -o-border-radius: 5px;
-}
-
 @media (max-width: 600px) {
     .slider-departament .heading-slider{
         padding-left: 20px;

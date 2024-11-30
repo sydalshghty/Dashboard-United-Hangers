@@ -9,7 +9,6 @@ function Color() {
     const [color, setColor] = useState('#F6F6FB');  
     const [showPicker, setShowPicker] = useState(false); 
     const [Name, setName] = useState("Name");
-    const [HexCode, setHexCode] = useState("Hex Code");
 
             const handleDelete = () => {
         Swal.fire({
@@ -51,6 +50,8 @@ function Color() {
     const handleNavigate = () => {
         navigate("/Colors")
     }
+    const [code, setCode] = useState("Code");
+
     return (
         <div className="color-departament">
             <div className="heading-color">
@@ -75,31 +76,32 @@ function Color() {
                     </div>
                     <div className="col-code">
                         <p>Code</p>
-                        <div>
-                            <input
-                                value={color}
-                                onClick={togglePicker}
-                                onChange={handleInputChange}
-                                style={{ backgroundColor: color, padding: '10px', border: '1px solid #ccc', borderRadius: '4px' }}
-                                type="text" placeholder="Code" name="Code" />
-                            {showPicker && (
-                            <div style={{ position: 'absolute', zIndex: 2 , marginTop: "20px"}}>
-                                <ChromePicker color={color} onChangeComplete={handleColorChange} />
-                             </div>
-                            )}
-                        </div>
-                    </div>
+                        <input
+                            onClick={blurtogglePicker}
+                            onFocus={() => {
+                            setCode("");
+                        }}
+                            onBlur={() => {
+                                setCode("Code");
+                        }}    type="text" placeholder={code} name="Code" />
+                    </div> 
                 </div>
                 <div className="col-Hex-code">
                     <p>Hex Code</p>
-                    <input
-                        onFocus={() => {
-                            setHexCode("")
-                        }}
-                        onBlur={() => {
-                            setHexCode("Hex Code")
-                        }}
-                        onClick={blurtogglePicker} type="text" placeholder={HexCode} name="Hex Code" />
+                    <div>
+                        <input
+                                value={color}
+                                onClick={togglePicker}
+                                onChange={handleInputChange}
+                                style={{ backgroundColor: color, padding: '10px', borderRadius: '4px' }}
+                                type="text" placeholder="Hex Code" name="Hex Code"
+                        />
+                        {showPicker && (
+                            <div style={{ position: 'absolute', zIndex: 2 , marginTop: "20px"}}>
+                                <ChromePicker color={color} onChangeComplete={handleColorChange} />
+                             </div>
+                        )}
+                    </div>
                 </div>
             </div>
             <div className="col-Delete-Edit">
