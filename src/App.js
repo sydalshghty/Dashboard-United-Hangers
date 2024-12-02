@@ -24,6 +24,7 @@ import AddNewColor from "./components/addNewColor";
 import AddNewServices from "./components/AddNewServices";
 import Service from "./components/service";
 import EditService from "./components/EditService";
+import AddNewMessage from "./components/AddNewMessage";
 import "./app.css";
 function App() {
   return (
@@ -57,7 +58,8 @@ function App() {
           <Route path="/AddNewColor" element={<AddNewColor />} />
           <Route path="/AddNewServices" element={<AddNewServices />} />
           <Route path="/Service" element={<Service />} />
-          <Route path="/EditService" element={<EditService/>}/>
+          <Route path="/EditService" element={<EditService />} />
+          <Route path="/AddNewMessage" element={<AddNewMessage/>}/>
         </Routes> 
       </div>
     </div>

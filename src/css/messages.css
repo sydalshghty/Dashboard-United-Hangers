@@ -1,0 +1,143 @@
+.Messages-Departament{
+    width: 100%;
+}
+.Messages-Departament .heading-messages{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 60px;
+    padding: 15px;
+    width: 100%;
+    border-bottom: 0.5px solid var(--border-color);
+    padding-left: 40px;
+    padding-right: 40px;
+}
+.Messages-Departament .heading-messages .p-messages{
+    font-size: 18px;
+    font-weight: 500;
+    letter-spacing: 0.5px;
+    color: #1F384C;
+    font-family: sans-serif;
+}
+@media (max-width: 600px) {
+    .Messages-Departament .heading-messages {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .Messages-Departament .heading-messages .p-messages{
+        font-size: 16px;
+        font-weight: 200;
+    }
+}
+.Messages-Departament .All-Messages{
+    width: 100%;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.Messages-Departament .All-Messages p{
+    font-size: 18px;
+    font-weight: 500;
+    letter-spacing: 0.5px;
+    color: #1F384C;
+    font-family: sans-serif;
+}
+@media (max-width: 600px){
+    .Messages-Departament .All-Messages{
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .Messages-Departament .All-Messages p{
+        font-size: 16px;
+    }
+}
+.Messages-Departament .Main-Messages-Cols{
+    padding: 40px 40px 0px 40px;
+    width: 100%;
+}
+.Messages-Departament .Main-Messages-Cols .content-Mesaage{
+    width: 100%;
+    height: 85px;
+    background-color: #F1F2F7;
+    padding: 15px;
+    display: flex;
+    align-items: center;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+.Messages-Departament .Main-Messages-Cols .content-Mesaage .id-P{
+    width: 45px;
+    height: 45px;
+    background-color: #5A67BA;
+    font-size: 20px;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+    font-family: sans-serif;
+    color: #FFFFFF;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 20px;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+.Messages-Departament .Main-Messages-Cols .content-Mesaage .text-Message .Name-P{
+    font-size: 20px;
+    font-weight: 400;
+    letter-spacing: 0.5px;
+    color: #000000;
+    font-family: sans-serif;
+    margin-bottom: 10px;
+}
+.Messages-Departament .Main-Messages-Cols .content-Mesaage .text-Message .Description-P{
+    font-size: 14px;
+    font-weight: 200;
+    letter-spacing: 0.5px;
+    font-family: sans-serif;
+    color: #000000;
+}
+@media (max-width: 600px){
+    .Messages-Departament .Main-Messages-Cols{
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+}
+@media (max-width: 768px){
+    .Messages-Departament .Main-Messages-Cols .content-Mesaage{
+        height: fit-content;
+    }
+    .Messages-Departament .Main-Messages-Cols .content-Mesaage .id-P{
+        width: 45px;
+        height: 35px;
+        font-size: 15px;
+    }
+}
+@media (max-width: 600px){
+    .Messages-Departament .Main-Messages-Cols .content-Mesaage .id-P{
+        width: 60px;
+        height: 35px;
+    }
+    .Messages-Departament .Main-Messages-Cols .content-Mesaage .text-Message .Name-P{
+        font-size: 17px;
+        margin-bottom: 5px;
+    }
+    .Messages-Departament .Main-Messages-Cols .content-Mesaage .text-Message .Description-P{
+        font-size: 13px;
+        line-height: 1.6;
+    }
+}
+@media (max-width: 420px){
+    .Messages-Departament .Main-Messages-Cols .content-Mesaage .id-P {
+            width: 70px;
+            height: 30px;
+        }
+}
