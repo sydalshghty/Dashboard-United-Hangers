@@ -1,0 +1,169 @@
+.products-Departament{
+    width: 100%;
+}
+.products-Departament .products-heading{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 60px;
+    padding: 15px;
+    border-bottom: 0.5px solid var(--border-color);
+    padding-left: 40px;
+    padding-right: 40px;
+}
+.products-Departament .products-heading .products-title{
+    font-size: 18px;
+    font-weight: 500;
+    letter-spacing: 0.5px;
+    font-family: sans-serif;
+    color: #1F384C;
+}
+.products-Departament .AllProducts-Col{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 40px;
+}
+.products-Departament .AllProducts-Col p{
+    font-size: 18px;
+    font-weight: 500;
+    letter-spacing: 0.5px;
+    font-family: sans-serif;
+    color: #1F384C;
+}
+@media (max-width: 768px) {
+    .products-Departament .products-heading{
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .products-Departament .products-heading .products-title,
+    .products-Departament .AllProducts-Col p{
+        font-size: 15px;
+    }
+}
+.products-Departament .main-Product{
+    width: 100%;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 20px;
+}
+.products-Departament .main-Product .container-Product{
+    position: relative;
+    display: flex;
+    width: 100%;
+    align-items: center;
+    height: 120px;
+    background-color: #F1F2F7;
+    padding: 15px;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+.products-Departament .main-Product .container-Product .product-id{
+   width: 45px;
+   height: 45px;
+   background-color: #5A67BA;
+   font-size: 20px;
+   font-weight: 600;
+   letter-spacing: 0.5px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   color: #FFFFFF;
+   font-family: sans-serif;
+   border-radius: 5px;
+   -webkit-border-radius: 5px;
+   -moz-border-radius: 5px;
+   -ms-border-radius: 5px;
+   -o-border-radius: 5px;
+}
+.products-Departament .main-Product .img-product{
+    margin: 0 15px;
+}
+.products-Departament .main-Product .content-product h3{
+    font-size: 20px;
+    font-weight: 400;
+    letter-spacing: 0.5px;
+    color: #000000;
+    font-family: sans-serif;
+    margin-bottom: 5px;
+}
+.products-Departament .main-Product .content-product p{
+    font-size: 14px;
+    font-weight: 400;
+    font-family: sans-serif;
+    letter-spacing: 0.5px;
+    color: #8D8D8D;
+    margin-bottom: 5px;
+}
+.products-Departament .main-Product .content-product ul{
+    display: flex;
+}
+.products-Departament .main-Product .content-product ul li{
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+    margin-right: 10px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+.products-Departament .main-Product .content-product ul li:nth-child(1){
+    background-color: #000000;
+}
+.products-Departament .main-Product .content-product ul li:nth-child(2){
+    background-color: #FFFFFF;
+}
+.products-Departament .main-Product .content-product ul li:nth-child(3){
+    background-color: #00FF1E;
+}
+.products-Departament .main-Product .Edit-Delete-Col{
+    position: absolute;
+    right: 15px;
+    display: flex;
+    flex-direction: column;
+    cursor: pointer;
+}
+.products-Departament .main-Product .Edit-Delete-Col .img-Edit{
+    margin-bottom: 10px;
+}
+@media (max-width: 768px){
+    .products-Departament .main-Product,
+    .products-Departament .AllProducts-Col{
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .products-Departament .main-Product .container-Product .product-id{
+        width: 35px;
+        height: 35px;
+        font-size: 15px;
+    }
+    .products-Departament .main-Product .Edit-Delete-Col .img-Edit,
+    .products-Departament .main-Product .Edit-Delete-Col .img-Delete{
+        width: 35px;
+        height: 35px;
+    }
+}
+@media (max-width: 600px){
+    .products-Departament .main-Product .container-Product{
+        height: 250px;
+        align-items: flex-start;
+    }
+    .products-Departament .main-Product .container-Product .product-id{
+        margin-top: 25px;
+    }
+    .products-Departament .main-Product .content-product{
+        position: absolute;
+        left: 15px;
+        bottom: 15px;
+    }
+}

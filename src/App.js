@@ -25,6 +25,8 @@ import AddNewServices from "./components/AddNewServices";
 import Service from "./components/service";
 import EditService from "./components/EditService";
 import AddNewMessage from "./components/AddNewMessage";
+import AddNewProduct from "./components/AddNewProduct";
+import EditProduct from "./components/EditProduct";
 import "./app.css";
 function App() {
   return (
@@ -34,8 +36,8 @@ function App() {
       </div>
       <div className="content-app">
         <Routes>
-          <Route path="/" element= {<Slider/>}/>
-          <Route path="modules" element={<Modules />}/>
+          <Route path="/" element= {<Modules/>}/>
+          <Route path="Products" element={<Modules />}/>
           <Route path="Slider" element={<Slider />} />
           <Route path="Inquiries" element={<Inquiries />} />
           <Route path="Messages" element={<Messages />} />
@@ -59,7 +61,9 @@ function App() {
           <Route path="/AddNewServices" element={<AddNewServices />} />
           <Route path="/Service" element={<Service />} />
           <Route path="/EditService" element={<EditService />} />
-          <Route path="/AddNewMessage" element={<AddNewMessage/>}/>
+          <Route path="/AddNewMessage" element={<AddNewMessage />} />
+          <Route path="/AddNewProduct" element={<AddNewProduct />} />
+          <Route path="/EditProduct" element={<EditProduct/>}/>
         </Routes> 
       </div>
     </div>

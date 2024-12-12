@@ -1,0 +1,81 @@
+ .col-Submit {
+    width: 100%;
+    padding-left: 40px;
+    padding-right: 40px;
+    display: flex;
+    justify-content: flex-end;
+    padding-top: 40px;
+}
+
+ .col-Submit button {
+    position: relative;
+    width: 209px;
+    height: 45px;
+    background-color: #5A67BA;
+    cursor: pointer;
+    border: none;
+    font-size: 15px;
+    font-weight: 500;
+    letter-spacing: 0.5px;
+    color: #FFFFFF;
+    z-index: 1;
+    transition: color 0.7s ease;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    -webkit-transition: color 0.7s ease;
+    -moz-transition: color 0.7s ease;
+    -ms-transition: color 0.7s ease;
+    -o-transition: color 0.7s ease;
+}
+
+@media (max-width: 768px) {
+     .col-Submit {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+     .col-Submit button {
+        width: 140px;
+    }
+}
+
+ .col-Submit button::before,
+ .col-Submit button::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    width: 0%;
+    height: 100%;
+    background-color: #FFFFFF;
+    z-index: -1;
+    overflow: hidden;
+    transition: width 0.7s ease;
+    -webkit-transition: width 0.7s ease;
+    -moz-transition: width 0.7s ease;
+    -ms-transition: width 0.7s ease;
+    -o-transition: width 0.7s ease;
+}
+
+ .col-Submit button::before {
+    left: 50%;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+ .col-Submit button::after {
+    right: 50%;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+
+ .col-Submit button:hover::before,
+ .col-Submit button:hover::after {
+    width: 50%;
+}
+ .col-Submit button:hover {
+    color: #5A67BA;
+    border: 1px solid #5A67BA;
+}

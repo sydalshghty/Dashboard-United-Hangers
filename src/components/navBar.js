@@ -53,10 +53,10 @@ function Navbar() {
                                 setRawMaterialHover(false);
                                 setSizesHover(false);
                             }}>
-                            <Link to={"modules"} className="link">
+                            <Link to={"Products"} className="link">
                                 <img src={iconProducts} alt="Products" />
                             </Link>
-                            <Link to={"modules"}>modules</Link>
+                            <Link to={"Products"}>Products</Link>
                         </li>
                         <li className={`${sliderHover ? "hovered" : ""}`}
                             onClick={() => {

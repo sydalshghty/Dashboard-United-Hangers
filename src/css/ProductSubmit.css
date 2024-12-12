@@ -1,0 +1,249 @@
+ .content-Product-Submit {
+    width: 100%;
+    padding-left: 40px;
+    padding-right: 40px;
+    margin-top: 40px;
+    display: flex;
+}
+ .content-Product-Submit .Name-Description-Col {
+    width: 50%;
+    position: relative;
+    margin-right: 20px;
+}
+ .content-Product-Submit .Name-Description-Col form {
+    width: 100%;
+}
+ .content-Product-Submit .Name-Description-Col form .col-Name,
+ .content-Product-Submit .Name-Description-Col form .col-Description {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+ .content-Product-Submit .Name-Description-Col form .col-Name label,
+ .content-Product-Submit .Name-Description-Col form .col-Description label {
+    font-size: 15px;
+    font-weight: 500;
+    letter-spacing: 0.5px;
+    color: #000000;
+    font-family: sans-serif;
+    margin-bottom: 10px;
+}
+
+ .content-Product-Submit .Name-Description-Col form .col-Name input,
+ .content-Product-Submit .Name-Description-Col form .col-Description input {
+    height: 48px;
+    background-color: #F6F6FB;
+    border: none;
+    outline: none;
+    font-size: 13px;
+    font-weight: 400;
+    letter-spacing: 0.5px;
+    color: #1F384C;
+    font-family: sans-serif;
+    caret-color: #1F384C;
+    padding: 15px;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+
+ .content-Product-Submit .Name-Description-Col form .col-Name input::placeholder,
+ .content-Product-Submit .Name-Description-Col form .col-Description input::placeholder {
+    padding-left: 5px;
+}
+ .content-Product-Submit .Name-Description-Col form .col-Description input {
+    height: 99px;
+}
+ .content-Product-Submit .Name-Description-Col .col-Raw-Material {
+    margin-top: 40px;
+}
+ .content-Product-Submit .Name-Description-Col .col-Raw-Material h3 {
+    font-size: 15px;
+    font-weight: 500;
+    letter-spacing: 0.5px;
+    font-family: sans-serif;
+    color: #000000;
+    margin-bottom: 20px;
+}
+ .content-Product-Submit .Name-Description-Col .col-Raw-Material div {
+    display: flex;
+    flex-wrap: wrap;
+}
+ .content-Product-Submit .Name-Description-Col .col-Raw-Material div p {
+    width: 134px;
+    height: 37px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 20px;
+    font-size: 15px;
+    font-weight: 500;
+    letter-spacing: 0.5px;
+    font-family: sans-serif;
+    border: 1px solid #8D8D8D;
+    margin-bottom: 15px;
+    cursor: pointer;
+    transition: background-color 0.5s ease, color 0.5s ease;
+    border-radius: 25px;
+    -webkit-border-radius: 25px;
+    -moz-border-radius: 25px;
+    -ms-border-radius: 25px;
+    -o-border-radius: 25px;
+    -webkit-transition: background-color 0.5s ease, color 0.5s ease;
+    -moz-transition: background-color 0.5s ease, color 0.5s ease;
+    -ms-transition: background-color 0.5s ease, color 0.5s ease;
+    -o-transition: background-color 0.5s ease, color 0.5s ease;
+}
+
+ .content-Product-Submit .Name-Description-Col .col-Raw-Material div p:nth-child(1),
+ .content-Product-Submit .Name-Description-Col .col-Raw-Material div p:nth-child(3) {
+    color: #8D8D8D;
+}
+
+ .content-Product-Submit .Name-Description-Col .col-Raw-Material div p:nth-child(1):hover,
+ .content-Product-Submit .Name-Description-Col .col-Raw-Material div p:nth-child(3):hover {
+    background-color: #5A67BA;
+    color: #FFFFFF;
+}
+
+ .content-Product-Submit .Name-Description-Col .col-Raw-Material div p:nth-child(2),
+ .content-Product-Submit .Name-Description-Col .col-Raw-Material div p:nth-child(4) {
+    color: #FFFFFF;
+    background-color: #5A67BA;
+}
+
+ .content-Product-Submit .Name-Description-Col .col-Raw-Material div p:nth-child(2):hover,
+ .content-Product-Submit .Name-Description-Col .col-Raw-Material div p:nth-child(4):hover {
+    color: #8D8D8D;
+    background-color: #FFFFFF;
+}
+
+ .content-Product-Submit .Colors-Sizes-Col {
+    width: 50%;
+}
+
+ .content-Product-Submit .Colors-Sizes-Col .Colors-Departament {
+    width: 100%;
+}
+
+ .content-Product-Submit .Colors-Sizes-Col .Colors-Departament h3,
+ .content-Product-Submit .Colors-Sizes-Col .Sizes-Departament h3 {
+    font-size: 15px;
+    font-weight: 500;
+    letter-spacing: 0.5px;
+    color: #000000;
+    font-family: sans-serif;
+    margin-bottom: 10px;
+}
+
+ .content-Product-Submit .Colors-Sizes-Col .Colors-Departament .ALL-Col-Colors,
+ .content-Product-Submit .Colors-Sizes-Col .Sizes-Departament .ALL-Col-Sizes {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+ .content-Product-Submit .Colors-Sizes-Col .Colors-Departament .ALL-Col-Colors div,
+ .content-Product-Submit .Colors-Sizes-Col .Sizes-Departament .ALL-Col-Sizes p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 134px;
+    height: 37px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    border: 1px solid #8D8D8D;
+    cursor: pointer;
+    border-radius: 25px;
+    -webkit-border-radius: 25px;
+    -moz-border-radius: 25px;
+    -ms-border-radius: 25px;
+    -o-border-radius: 25px;
+}
+ .content-Product-Submit .Colors-Sizes-Col .Colors-Departament .ALL-Col-Colors div li {
+    list-style-type: none;
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+    background-color: #000000;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+ .content-Product-Submit .Colors-Sizes-Col .Colors-Departament .ALL-Col-Colors div p {
+    font-size: 15px;
+    font-weight: 500;
+    letter-spacing: 0.5px;
+    font-family: sans-serif;
+    color: #8D8D8D;
+}
+ .content-Product-Submit .Colors-Sizes-Col .Colors-Departament .ALL-Col-Colors div:nth-child(2),
+ .content-Product-Submit .Colors-Sizes-Col .Colors-Departament .ALL-Col-Colors div:nth-child(4) {
+    background-color: #5A67BA;
+    color: #FFFFFF;
+}
+ .content-Product-Submit .Colors-Sizes-Col .Colors-Departament .ALL-Col-Colors div:nth-child(2) p,
+ .content-Product-Submit .Colors-Sizes-Col .Colors-Departament .ALL-Col-Colors div:nth-child(4) p {
+    color: #FFFFFF;
+}
+
+ .content-Product-Submit .Colors-Sizes-Col .Colors-Departament .ALL-Col-Colors div:nth-child(2) li {
+    background-color: white;
+}
+ .content-Product-Submit .Colors-Sizes-Col .Colors-Departament .ALL-Col-Colors div:nth-child(3) li {
+    background-color: #FF0000;
+}
+ .content-Product-Submit .Colors-Sizes-Col .Colors-Departament .ALL-Col-Colors div:nth-child(4) li {
+    background-color: #FEFE00;
+}
+ .content-Product-Submit .Colors-Sizes-Col .Colors-Departament .ALL-Col-Colors div:nth-child(5) li {
+    background-color: #000DFF;
+}
+ .content-Product-Submit .Colors-Sizes-Col .Sizes-Departament .ALL-Col-Sizes p {
+    font-size: 15px;
+    font-weight: 500;
+    letter-spacing: 0.5px;
+    color: #8D8D8D;
+    transition: background-color 0.5s ease, color 0.5s ease;
+    -webkit-transition: background-color 0.5s ease, color 0.5s ease;
+    -moz-transition: background-color 0.5s ease, color 0.5s ease;
+    -ms-transition: background-color 0.5s ease, color 0.5s ease;
+    -o-transition: background-color 0.5s ease, color 0.5s ease;
+}
+ .content-Product-Submit .Colors-Sizes-Col .Sizes-Departament .ALL-Col-Sizes p:nth-child(2),
+ .content-Product-Submit .Colors-Sizes-Col .Sizes-Departament .ALL-Col-Sizes p:nth-child(4) {
+    color: #FFFFFF;
+    background-color: #5A67BA;
+}
+
+ .content-Product-Submit .Colors-Sizes-Col .Sizes-Departament .ALL-Col-Sizes p:nth-child(2):hover,
+ .content-Product-Submit .Colors-Sizes-Col .Sizes-Departament .ALL-Col-Sizes p:nth-child(4):hover {
+    color: #8D8D8D;
+    background-color: #FFFFFF;
+}
+
+ .content-Product-Submit .Colors-Sizes-Col .Sizes-Departament .ALL-Col-Sizes p:nth-child(1):hover,
+ .content-Product-Submit .Colors-Sizes-Col .Sizes-Departament .ALL-Col-Sizes p:nth-child(3):hover {
+    color: #FFFFFF;
+    background-color: #5A67BA;
+}
+
+@media (max-width: 768px) {
+     .content-Product-Submit {
+        flex-direction: column;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+     .content-Product-Submit .Colors-Sizes-Col,
+     .content-Product-Submit .Name-Description-Col {
+        width: 100%;
+    }
+
+     .content-Product-Submit .Name-Description-Col {
+        margin-bottom: 40px;
+    }
+}
